@@ -4,7 +4,8 @@
     "package": "cursedbread.touchgrass.mixin",
     "compatibilityLevel": "JAVA_8",
     "mixins": [
-      "TouchingGrassMixin"
+      "TouchingGrassMixin",
+      "TouchingTallGrassMixin"
     ],
     "client": [
     ],
