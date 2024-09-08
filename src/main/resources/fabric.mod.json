@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "id": "touchgrass",
+  "version": "${version}",
+
+  "name": "Go Touch Some Grass",
+  "description": "Just trust me, it's good for you ;)",
+  "authors": [
+    "Bread (with a lot of help)"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+	"icon": "icon.png",
+  "license": "CC0-1.0",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+			"cursedbread.touchgrass.GRASS"
+    ],
+		"beforeGameStart": [
+			"cursedbread.touchgrass.GRASS"
+		],
+		"afterGameStart": [
+			"cursedbread.touchgrass.GRASS"
+		],
+		"recipesReady": [
+			"cursedbread.touchgrass.GRASS"
+		]
+	},
+  "mixins": [
+      "touchgrass.mixins.json"
+  ],
+
+  "depends": {
+		"minecraft": "^7.2-beta",
+    "fabricloader": ">=0.15.5"
+  },
+  "suggests": {
+  }
+}
