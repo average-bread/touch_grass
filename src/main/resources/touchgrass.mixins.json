@@ -1,15 +1,16 @@
 {
-    "required": true,
-    "minVersion": "0.8",
-    "package": "cursedbread.touchgrass.mixin",
-    "compatibilityLevel": "JAVA_8",
-    "mixins": [
-      "TouchingGrassMixin",
-      "TouchingTallGrassMixin"
-    ],
-    "client": [
-    ],
-    "injectors": {
-        "defaultRequire": 1
+  "required": true,
+  "minVersion": "0.8",
+  "package": "cursedbread.touchgrass.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "GrassDeathMessage",
+    "TouchingGrassMixin",
+    "TouchingTallGrassMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
   }
 }
